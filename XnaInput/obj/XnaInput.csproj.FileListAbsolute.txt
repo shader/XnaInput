@@ -1,0 +1,12 @@
+F:\Misc\Game Dev\XNA\XnaInput\XnaInput\bin\Debug\Microsoft.Xna.Framework.dll
+F:\Misc\Game Dev\XNA\XnaInput\XnaInput\bin\Debug\Microsoft.Xna.Framework.xml
+F:\Misc\Game Dev\XNA\XnaInput\XnaInput\obj\Debug\ResolveAssemblyReference.cache
+F:\Misc\Game Dev\XNA\XnaInput\XnaInput\bin\Debug\XnaInput.dll
+F:\Misc\Game Dev\XNA\XnaInput\XnaInput\bin\Debug\XnaInput.pdb
+F:\Misc\Game Dev\XNA\XnaInput\XnaInput\obj\Debug\XnaInput.dll
+F:\Misc\Game Dev\XNA\XnaInput\XnaInput\obj\Debug\XnaInput.pdb
+F:\Misc\Game Dev\XNA\XnaInput\XnaInput\bin\Release\XnaInput.dll
+F:\Misc\Game Dev\XNA\XnaInput\XnaInput\bin\Release\XnaInput.pdb
+F:\Misc\Game Dev\XNA\XnaInput\XnaInput\obj\Release\ResolveAssemblyReference.cache
+F:\Misc\Game Dev\XNA\XnaInput\XnaInput\obj\Release\XnaInput.dll
+F:\Misc\Game Dev\XNA\XnaInput\XnaInput\obj\Release\XnaInput.pdb

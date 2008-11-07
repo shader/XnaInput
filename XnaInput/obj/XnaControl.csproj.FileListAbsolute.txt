@@ -1,0 +1,14 @@
+F:\Misc\Game Dev\XNA\XnaControl\XnaControl\obj\Debug\ResolveAssemblyReference.cache
+F:\Misc\Game Dev\XNA\XnaControl\XnaControl\bin\Debug\XnaControl.dll
+F:\Misc\Game Dev\XNA\XnaControl\XnaControl\bin\Debug\XnaControl.pdb
+F:\Misc\Game Dev\XNA\XnaControl\XnaControl\bin\Debug\Microsoft.Xna.Framework.dll
+F:\Misc\Game Dev\XNA\XnaControl\XnaControl\bin\Debug\Microsoft.Xna.Framework.xml
+F:\Misc\Game Dev\XNA\XnaControl\XnaControl\obj\Debug\XnaControl.dll
+F:\Misc\Game Dev\XNA\XnaControl\XnaControl\obj\Debug\XnaControl.pdb
+F:\Misc\Game Dev\XNA\XnaControl\XnaControl\bin\Release\XnaControl.dll
+F:\Misc\Game Dev\XNA\XnaControl\XnaControl\bin\Release\XnaControl.pdb
+F:\Misc\Game Dev\XNA\XnaControl\XnaControl\bin\Release\Microsoft.Xna.Framework.dll
+F:\Misc\Game Dev\XNA\XnaControl\XnaControl\bin\Release\Microsoft.Xna.Framework.xml
+F:\Misc\Game Dev\XNA\XnaControl\XnaControl\obj\Release\ResolveAssemblyReference.cache
+F:\Misc\Game Dev\XNA\XnaControl\XnaControl\obj\Release\XnaControl.dll
+F:\Misc\Game Dev\XNA\XnaControl\XnaControl\obj\Release\XnaControl.pdb
