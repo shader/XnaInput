@@ -2,8 +2,10 @@
 *.user
 bin/
 obj/
-*/obj/**/*
-*/bin/**/*
+*/obj/*
+*/bin/*
+*/obj/*/*
+*/bin/*/*
 */*/obj/**/*
 */*/bin/**/*
 
