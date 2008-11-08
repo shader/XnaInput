@@ -18,7 +18,7 @@ namespace XnaInput
         //Methods for assigning controls to a single player index
 
         /// <summary>
-        /// Allows you to assign a custom-made InputMethod to a control. 
+        /// Allows you to assign a custom-made InputMethod to a control.
         /// InputMethods take no arguments, and return a float.
         /// </summary>
         /// <param name="player"></param>
@@ -61,12 +61,12 @@ namespace XnaInput
         public void AssignControl(PlayerIndex player, string name, Buttons button)
         {
             PlayerControls[player][name] = delegate {
-                return (GamePads[player].IsConnected && GamePads[player].IsButtonDown(button)) ? 1.0f : 0.0f; 
+                return (GamePads[player].IsConnected && GamePads[player].IsButtonDown(button)) ? 1.0f : 0.0f;
             };
         }
 
         /// <summary>
-        /// Assigns two Gamepad buttons to a control. The control returns 1.0f if the first is pressed, 
+        /// Assigns two Gamepad buttons to a control. The control returns 1.0f if the first is pressed,
         /// -1.0f if the second is pressed, and 0.0f if both or none are pressed.
         /// </summary>
         /// <param name="player"></param>
@@ -121,7 +121,7 @@ namespace XnaInput
         //Methods for assigning controls to all player indices
 
         /// <summary>
-        /// Allows you to assign a custom-made InputMethod to a control for all players. 
+        /// Allows you to assign a custom-made InputMethod to a control for all players.
         /// InputMethods take no arguments, and return a float.
         /// </summary>
         /// <param name="player"></param>
@@ -179,7 +179,7 @@ namespace XnaInput
         }
 
         /// <summary>
-        /// Assigns two Gamepad buttons to a control for all players. The control returns 1.0f if the first is pressed, 
+        /// Assigns two Gamepad buttons to a control for all players. The control returns 1.0f if the first is pressed,
         /// -1.0f if the second is pressed, and 0.0f if both or none are pressed.
         /// </summary>
         /// <param name="player"></param>
