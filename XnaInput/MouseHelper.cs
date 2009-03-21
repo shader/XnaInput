@@ -68,7 +68,7 @@ namespace XnaInput
         /// </summary>
         /// <param name="button"></param>
         /// <returns></returns>
-        public InputMethod Click(Button button)
+        public InputMethod JustPressed(Button button)
         {
             switch (button)
             {
@@ -121,7 +121,7 @@ namespace XnaInput
         /// </summary>
         /// <param name="button"></param>
         /// <returns></returns>
-        public InputMethod Release(Button button)
+        public InputMethod JustReleased(Button button)
         {
             switch (button)
             {

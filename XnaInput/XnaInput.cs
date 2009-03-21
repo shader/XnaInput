@@ -302,10 +302,10 @@ namespace XnaInput
                 MouseHelper.Button mouse_button = (MouseHelper.Button)Enum.Parse(typeof(MouseHelper.Button), parts[1]);
                 switch (parts[0])
                 {
-                    case "Click":
-                        return Mouse.Click(mouse_button);
-                    case "Release":
-                        return Mouse.Release(mouse_button);
+                    case "JustPressed":
+                        return Mouse.JustPressed(mouse_button);
+                    case "JustReleased":
+                        return Mouse.JustReleased(mouse_button);
                     case "Down":
                         return Mouse.Down(mouse_button);
                     case "Up":
