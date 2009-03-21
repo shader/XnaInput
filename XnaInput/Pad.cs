@@ -111,24 +111,24 @@ namespace XnaInput
             _state = GamePad.GetState(player);
         }
 
-        public bool IsButtonDown(Buttons button)
+        public bool Down(Buttons button)
         {
             return State.IsButtonDown(button);
         }
 
-        public bool IsButtonUp(Buttons button)
+        public bool Up(Buttons button)
         {
             return State.IsButtonUp(button);
         }
 
         public bool JustPressed(Buttons button)
         {
-            return State.IsButtonDown(button) & PreviousState.IsButtonDown(button);
+            return State.IsButtonDown(button) & PreviousState.IsButtonUp(button);
         }
 
         public bool JustReleased(Buttons button)
         {
-            return State.IsButtonUp(button) & PreviousState.IsButtonUp(button);
+            return State.IsButtonUp(button) & PreviousState.IsButtonDown(button);
         }
     }
 }

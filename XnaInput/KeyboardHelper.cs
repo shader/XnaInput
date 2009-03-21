@@ -25,5 +25,15 @@ namespace XnaInput
         {
             return State.IsKeyUp(key) && PreviousState.IsKeyDown(key);
         }
+
+        public bool Up(Keys key)
+        {
+            return State.IsKeyUp(key);
+        }
+
+        public bool Down(Keys key)
+        {
+            return State.IsKeyDown(key);
+        }
     }
 }

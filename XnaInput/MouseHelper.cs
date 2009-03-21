@@ -48,17 +48,17 @@ namespace XnaInput
             return (float)State.ScrollWheelValue;
         }
 
-        public float RelativeX()
+        public float DeltaX()
         {
             return (float)(PreviousState.X - State.X);
         }
 
-        public float RelativeY()
+        public float DeltaY()
         {
             return (float)(PreviousState.Y - State.Y);
         }
 
-        public float RelativeScrollWheelValue()
+        public float DeltaScrollWheelValue()
         {
             return (float)(PreviousState.ScrollWheelValue - State.ScrollWheelValue);
         }
@@ -113,7 +113,7 @@ namespace XnaInput
                             0.0f;
                     };
             }
-            return delegate { return 0.0f; }; //should never happen
+            throw new Exception("No delegate could be found that matched your input");
         }
 
         /// <summary>
@@ -166,7 +166,7 @@ namespace XnaInput
                             0.0f;
                     };
             }
-            return delegate { return 0.0f; }; //should never happen
+            throw new Exception("No delegate could be found that matched your input");
         }
 
         /// <summary>
@@ -214,7 +214,7 @@ namespace XnaInput
                             0.0f;
                     };
             }
-            return delegate { return 0.0f; }; //should never happen
+            throw new Exception("No delegate could be found that matched your input");
         }
 
         /// <summary>
@@ -262,7 +262,7 @@ namespace XnaInput
                             0.0f;
                     };
             }
-            return delegate { return 0.0f; }; //should never happen
+            throw new Exception("No delegate could be found that matched your input");
         }
     }
 }
