@@ -569,7 +569,14 @@ namespace XnaInput
         /// <returns></returns>
         public float ControlState(PlayerIndex player, string name)
         {
-            return PlayerControls[player][name]();
+            if (PlayerControls[player].ContainsKey(name))
+            {
+                return PlayerControls[player][name]();
+            }
+            else
+            {
+                return 0.0f;
+            }
         }
 
         public InputManager(Game game)
